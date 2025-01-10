@@ -8,8 +8,10 @@ import os
 import utils
 # https://pytorch.org/tutorials/intermediate/speech_command_classification_with_torchaudio_tutorial.html
 
-SUNOCAPS_PATH = '/nas/home/lcomanducci/MIR/dfm/dataset/FakeMusicCaps/SunoCaps'
-DATASET_PATH ='/nas/home/lcomanducci/MIR/dfm/dataset/FakeMusicCaps'
+
+SUNOCAPS_PATH = '/kaggle/input/fakemusiccaps-bin/dataset/SunoCaps'
+DATASET_PATH = '/kaggle/input/fakemusiccaps-bin/dataset'
+
 
 # Create classes dictionary
 models_names = os.listdir(DATASET_PATH)
