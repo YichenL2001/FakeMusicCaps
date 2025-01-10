@@ -7,6 +7,7 @@ import torch.nn.functional as F
 import data_lib
 import network_models_lib
 import datetime
+sys.path.append('/kaggle/working/FakeMusicCaps')
 import params
 from tqdm import tqdm
 from torch.utils.tensorboard import SummaryWriter
